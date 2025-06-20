@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible", content="IE-edge">
+        <title>Groceries | e-Commerce</title>
+        <link rel="stylesheet", href="css/fonts.css">
+        <link rel="stylesheet", href="css/reset.css">
+        <link rel="stylesheet", href="css/body.css">
+        <link rel="stylesheet", href="css/sidebar.css">
+        <link rel="stylesheet", href="css/queries.css">
+        <link rel="stylesheet", href="css/classes.css">
+        <link rel="stylesheet", href="css/grids.css">
+        <link rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <!--Navigation-->
+        <header>
+            <section id="primary-nav">
+                <div class="left-buttons"> <!--left side buttons-->
+                    <div><a href="home.html"><i class="fa-solid fa-house"></i></a></div>
+                </div>
+                <div class="search-bar"> <!--search bar-->
+                    <form>
+                        <input type="text", placeholder="Search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="right-buttons"> <!--right side buttons-->
+                    <div><a href="favourites.html"><i class="fa-solid fa-heart"></i></a></div>
+                    <div><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                </div>
+            </section>
+            <section id="secondary-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#", onClick="openSidebar()", id="sidebar-button"><i class="fa-solid fa-bars menu-button"></i></a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                        <li><a href="groceries.html">Groceries</a></li>
+                        <li><a href="skincare.html">Skincare</a></li>
+                        <li><a href="electronics.html">Electronics</a></li>
+                        <li><a href="furniture.html">Furniture</a></li>
+                        <li><a href="travel.html">Travel</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <!--Sidebar-->
+        <section id="sidebar">
+            <a href="javascript:void(0)", class="closebtn" onclick="closeSidebar()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="deals.html">Deals</a>
+            <a href="groceries.html">Groceries</a>
+            <a href="skincare.html">Skincare</a>
+            <a href="electronics.html">Electronics</a>
+            <a href="furniture.html">Furniture</a>
+            <a href="travel.html">Travel</a>
+        </section>
+        <!--Main section-->
+        <main>
+            <section class="g-grid-banner">
+                <h1 class="f-cabin-sketch margin-bottom align-center extralarge">Groceries</h1>
+                <img src="images/stocks/groceries/groceries.jpg", title="Groceries", alt="Banner of fruit and vegetables.">
+            </section>
+            <section class="g-grid-margin padding-bottom padding-top g-grid-grid">
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/salads.jpg", title="Organic salads", alt="Image of organic salads.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Organic Salad</p>
+                            <p class="p2">£20.50</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/bento.jpg", title="Bento box", alt="Image of a bento box.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Bento Box</p>
+                            <p class="p2">£14.50</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/vegan.jpg", title="Vegan food", alt="Image of vegan burger.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Vegan Food</p>
+                            <p class="p2">£12.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/milk.jpg", title="Milk & dairy", alt="Image of different varieties of milk.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Milk & Dairy</p>
+                            <p class="p2">£11.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/french_cheese.jpg", title="French cheese", alt="Image of different varieties of french cheese.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>French Cheese</p>
+                            <p class="p2">£15.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/meat.jpg", title="Protein", alt="Image of different protein products.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Meat & Protein</p>
+                            <p class="p2">£17.20</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/seafood.jpg", title="xxx", alt="xxx">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Seafood</p>
+                            <p class="p2">£30.40</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/sushi.jpg", title="Sushi", alt="Image of sushi.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Sushi</p>
+                            <p class="p2">£20.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/caviar.jpg", title="xxx", alt="xxx">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Caviar</p>
+                            <p class="p2">£200.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/pizza.jpg", title="Margherita pizza", alt="Image of margherita pizza.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Margherita Pizza</p>
+                            <p class="p2">£10.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/coffee.jpg", title="Coffee", alt="Image of coffee and coffee beans.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Coffee</p>
+                            <p class="p2">£7.50</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/wine.jpg", title="Wine", alt="Image of wine bottles.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Vintage Wine</p>
+                            <p class="p2">£60.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/cake.jpg", title="Cake", alt="Image of a chocolate cake.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Chocolate Cake</p>
+                            <p class="p2">£30.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/macarons.jpg", title="Macarons", alt="Image of macarons.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Macarons</p>
+                            <p class="p2">£12.50</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="g-grid-grid-item">
+                    <div class="g-grid-grid-item-img"> <!--image-->
+                        <img src="images/stocks/groceries/cookies.jpg", title="Cookies", alt="Image of cookies.">
+                    </div>
+                    <div class="g-grid-grid-item-flex"> <!--flexbox-->
+                        <div class="g-grid-grid-item-flex-caption">
+                            <p>Chocolate Chip Cookies</p>
+                            <p class="p2">£4.00</p>
+                        </div>
+                        <div class="g-grid-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footer-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tos.html">TOS</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="social-media">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div id="copyright">
+                <p>Copyright &copy; 2022 - 2025. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="js/sidebar.js"></script>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+/* Heading effects */
+h1.large {font-size: 50px;}
+h1.extralarge {font-size: 60px;}
+h2.large {font-size: 40px;}
+h2.extralarge {font-size: 50px;}
+.text-shadow {text-shadow: 5px 5px 3px rgb(114, 114, 114);}
+
+/* Structure */
+.flex {display: flex;} /* quick flexbox */
+.grid {display: grid;} /* quick grid */
+.align-left {text-align: left;}
+.align-right {text-align: right;}
+.align-center {text-align: center;}
+.align-justify {text-align: justify;}
+
+/* Margins */
+.margin {margin: 2rem 4rem;}
+.margin-top {margin-top: 2rem;}
+.margin-bottom {margin-bottom: 2rem;}
+.margin-auto {margin: auto;}
+
+/* Padding */
+.padding {padding: 2rem 4rem;}
+.padding-top {padding-top: 2rem;}
+.padding-bottom {padding-bottom: 2rem;}
+
+/* Borders */
+.xray {border: 2px dashed black;}
+.xray-p {border: 2px dashed black; padding: 10px;}
+
+/* Skincare page classes */
+.skincare-margin {margin: 2vh 4vw;}
+.skincare-banner
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 20vw;
+}
+.skincare-banner img 
+{
+    margin: auto;
+    height: 225px;
+    width: 100%;
+    box-shadow: 10px 5px 5px 10px rgb(187, 194, 182);
+}
+.skincare-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 80px;
+    padding: 0 10vw;
+}
+.skincare-grid-item {border: 2px solid white;}
+.skincare-grid-item-img 
+{
+    position: relative;
+    box-sizing: border-box;
+    height: 300px;
+}
+.skincare-grid-item-img img {width: 100%; height: 100%; padding: 1rem;}
+.skincare-grid-item-flex 
+{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: rgb(192, 192, 192);
+}
+.skincare-grid-item-flex-caption {padding: 0.5vw;}
+.skincare-grid-item-flex-caption p {font-weight: 600; font-size: 1vw;}
+.skincare-grid-item-flex-caption .p2 {font-weight: 500;}
+.skincare-grid-item-flex-button
+{
+    cursor: pointer;
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 10px 0;
+    background-color: rgb(2, 0, 100);
+    color: white;
+}
+.skincare-grid-item-flex-button:hover,
+.skincare-grid-item-flex-button:focus {background-color: rgb(2, 0, 134);}

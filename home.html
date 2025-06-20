@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible", content="IE-edge">
+        <title>Home | e-Commerce</title>
+        <link rel="stylesheet", href="css/fonts.css">
+        <link rel="stylesheet", href="css/reset.css">
+        <link rel="stylesheet", href="css/body.css">
+        <link rel="stylesheet", href="css/sidebar.css">
+        <link rel="stylesheet", href="css/queries.css">
+        <link rel="stylesheet", href="css/home.css">
+        <link rel="stylesheet", href="css/classes.css">
+        <link rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <!--Navigation-->
+        <header>
+            <section id="primary-nav">
+                <div class="left-buttons"> <!--left side buttons-->
+                    <div><a href="home.html"><i class="fa-solid fa-house"></i></a></div>
+                </div>
+                <div class="search-bar"> <!--search bar-->
+                    <form>
+                        <input type="text", placeholder="Search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="right-buttons"> <!--right side buttons-->
+                    <div><a href="favourites.html"><i class="fa-solid fa-heart"></i></a></div>
+                    <div><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                </div>
+            </section>
+            <section id="secondary-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#", onClick="openSidebar()", id="sidebar-button"><i class="fa-solid fa-bars menu-button"></i></a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                        <li><a href="groceries.html">Groceries</a></li>
+                        <li><a href="skincare.html">Skincare</a></li>
+                        <li><a href="electronics.html">Electronics</a></li>
+                        <li><a href="furniture.html">Furniture</a></li>
+                        <li><a href="travel.html">Travel</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <!--Sidebar-->
+        <section id="sidebar">
+            <a href="javascript:void(0)", class="closebtn" onclick="closeSidebar()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="deals.html">Deals</a>
+            <a href="groceries.html">Groceries</a>
+            <a href="skincare.html">Skincare</a>
+            <a href="electronics.html">Electronics</a>
+            <a href="furniture.html">Furniture</a>
+            <a href="travel.html">Travel</a>
+        </section>
+        <!--Main section-->
+        <main>
+            <section class="sector1">
+                <div class="banner">
+                    <h1 class="f-rye text-shadow">Welcome to e-Commerce</h1>
+                    <h2 class="f-rye ">Discover our wide range of products</h2>
+                </div>
+                <div class="special-banner">
+                    <img src="images/spring_sale.png", title="Spring sale", alt="Banner displaying spring sale.">
+                </div>
+                <div class="heading1">
+                    <h1>Browse by categories</h1>
+                </div>
+            </section>
+            <section class="sector2">
+                <div class="sector2-grid-item">
+                    <figure>
+                        <a href="deals.html">
+                            <div class="tinted-glass"></div>
+                            <img src="images/stocks/deals/cherry_blossoms.jpg", title="Spring Deals", alt="Image of spring deals.">
+                            <figcaption>Spring Deals</figcaption>
+                        </a>
+                    </figure>
+                    <div>
+                        <p>Discover our spring special offers.</p>
+                    </div>
+                </div>
+                <div class="sector2-grid-item">
+                    <figure>
+                        <a href="groceries.html">
+                            <div class="tinted-glass"></div>
+                            <img src="images/stocks/groceries/food.jpg", title="Groceries", alt="Image of groceries.">
+                            <figcaption>Food & Drink</figcaption>
+                        </a>
+                    </figure>
+                    <div>
+                        <p>Browse our healthy and delicious groceries.</p>
+                    </div>
+                </div>
+                <div class="sector2-grid-item">
+                    <figure>
+                        <a href="skincare.html">
+                            <div class="tinted-glass"></div>
+                            <img src="images/stocks/skincare/skincare.jpg", title="Skincare", alt="Image of beauty and skincare.">
+                            <figcaption>Skincare</figcaption>
+                        </a>
+                    </figure>
+                    <div>
+                        <p>Experience the best beauty and skincare products.</p>
+                    </div>
+                </div>
+                <div class="sector2-grid-item">
+                    <figure>
+                        <a href="electronics.html">
+                            <div class="tinted-glass"></div>
+                            <img src="images/stocks/electronics/tech.jpg", title="Electronics", alt="Image of tech and electronics.">
+                            <figcaption>Electronics</figcaption>
+                        </a>
+                    </figure>
+                    <div>
+                        <p>Discover the latest technology and electronics products.</p>
+                    </div>
+                </div>
+                <div class="sector2-grid-item">
+                    <figure>
+                        <a href="furniture.html">
+                            <div class="tinted-glass"></div>
+                            <img src="images/stocks/furniture/furniture_store.jpg", title="Furniture", alt="Image of a furniture store.">
+                            <figcaption>Furniture</figcaption>
+                        </a>
+                    </figure>
+                    <div>
+                        <p>Browse our furniture and home decor products.</p>
+                    </div>
+                </div>
+                <div class="sector2-grid-item">
+                    <figure>
+                        <a href="travel.html">
+                            <div class="tinted-glass"></div>
+                            <img src="images/stocks/travel/plane.jpg", title="Travel", alt="Image of travelling abroad.">
+                            <figcaption>Travel & Tourism</figcaption>
+                        </a>
+                    </figure>                 
+                    <div>
+                        <p>Browse our luxury package holidays created by our in-house travel agency.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footer-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tos.html">TOS</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="social-media">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div id="copyright">
+                <p>Copyright &copy; 2022 - 2025. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="js/sidebar.js"></script>
+    </body>
+</html>

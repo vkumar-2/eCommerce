@@ -1,0 +1,67 @@
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 901px) 
+{
+    section#sidebar a {display: none;}
+    section#sidebar a:first-child {display: block;} /* close */
+    section#sidebar a:nth-child(2) {display: block} /* home */
+    section#sidebar a:nth-child(3) {display: block;} /* about */
+}
+@media only screen and (max-width: 900px) 
+{
+    header section#secondary-nav nav ul li:last-child {display: none;} /* travel */
+    section#sidebar a {display: none;}
+    section#sidebar a:first-child {display: block;} /* close */
+    section#sidebar a:nth-child(2) {display: block} /* home */
+    section#sidebar a:nth-child(3) {display: block;} /* about */
+    section#sidebar a:last-child {display: block;} /* travel */
+}
+@media only screen and (max-width: 800px) 
+{
+    header section#secondary-nav nav ul li:nth-last-child(2) {display: none;} /* furniture */
+    section#sidebar a {display: none;}
+    section#sidebar a:first-child {display: block;} /* close */
+    section#sidebar a:nth-child(2) {display: block} /* home */
+    section#sidebar a:nth-child(3) {display: block;} /* about */
+    section#sidebar a:last-child {display: block;} /* travel */
+    section#sidebar a:nth-last-child(2) {display: block;} /* furniture */
+}
+@media only screen and (max-width: 600px) 
+{
+    header section#secondary-nav nav ul li:nth-last-child(3) {display: none;} /* electronics */
+    section#sidebar a {display: none;}
+    section#sidebar a:first-child {display: block;} /* close */
+    section#sidebar a:nth-child(2) {display: block} /* home */
+    section#sidebar a:nth-child(3) {display: block;} /* about */
+    section#sidebar a:last-child {display: block;} /* travel */
+    section#sidebar a:nth-last-child(2) {display: block;} /* furniture */
+    section#sidebar a:nth-last-child(3) {display: block;} /* electronics */
+}
+@media only screen and (max-width: 500px)
+{
+    header section#primary-nav div.left-buttons {display: none;}
+    header section#secondary-nav nav ul li:nth-last-child(4) {display: none;} /* skincare */
+    section#sidebar a {display: none;}
+    section#sidebar a:first-child {display: block;} /* close */
+    section#sidebar a:nth-child(2) {display: block} /* home */
+    section#sidebar a:nth-child(3) {display: block;} /* about */
+    section#sidebar a:last-child {display: block;} /* travel */
+    section#sidebar a:nth-last-child(2) {display: block;} /* furniture */
+    section#sidebar a:nth-last-child(3) {display: block;} /* electronics */
+    section#sidebar a:nth-last-child(4) {display: block;} /* skincare */
+}
+@media only screen and (max-width: 400px) 
+{
+    header section#primary-nav {justify-content: center;}
+    header section#primary-nav div.right-buttons div:first-child {display: none;}
+    header section#secondary-nav nav ul li:nth-last-child(5) {display: none;}
+    section#sidebar a {display: none;}
+    section#sidebar a:first-child {display: block;} /* close */
+    section#sidebar a:nth-child(2) {display: block} /* home */
+    section#sidebar a:nth-child(3) {display: block;} /* about */
+    section#sidebar a:last-child {display: block;} /* travel */
+    section#sidebar a:nth-last-child(2) {display: block;} /* furniture */
+    section#sidebar a:nth-last-child(3) {display: block;} /* electronics */
+    section#sidebar a:nth-last-child(4) {display: block;} /* skincare */
+    section#sidebar a:nth-last-child(5) {display: block;} /* groceries */
+}

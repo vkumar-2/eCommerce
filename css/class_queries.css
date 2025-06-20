@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1500px) 
+{
+    .skincare-margin {margin: 2vh 0vw;}
+    .skincare-grid-item-img {height: 300px;}
+    .skincare-grid-item-flex-caption p {font-weight: 600; font-size: 1.5vw;}
+    .skincare-grid-item-flex-button {font-size: 1.5vw;}
+    #main-section {padding: 0 4vw;}
+}
+@media only screen and (max-width: 1200px)
+{
+    .skincare-banner img {height: 175px;}
+    .skincare-grid-item-img {height: 250px;}
+}
+@media only screen and (max-width: 1000px)
+{
+    .skincare-banner {margin: 2vh 10vw;}
+    .skincare-grid-item-flex-caption p {font-weight: 600; font-size: 2vw;}
+    .skincare-grid-item-flex-button {font-size: 2vw;}
+    .skincare-grid {gap: 40px;}
+}
+@media only screen and (max-width: 800px)
+{
+    .skincare-grid-item-flex-caption p {font-weight: 600; font-size: 3vw;}
+    .skincare-grid-item-flex-button {font-size: 3vw;}
+    .skincare-grid {grid-template-columns: repeat(2, 1fr);}
+}
+@media only screen and (max-width: 600px) 
+{
+    .skincare-grid-item-img {height: 200px;} 
+    #skincare-h1, #fragrances-h1 {font-size: 50px;}
+}
+@media only screen and (max-width: 450px)
+{
+    .skincare-grid-item-flex-caption p {font-weight: 600; font-size: 4vw;}
+    .skincare-grid-item-flex-button {font-size: 4vw;}
+    .skincare-grid {grid-template-columns: repeat(1, 1fr);}
+    .skincare-grid-item-img {height: 300px;}
+    #skincare-h1, #fragrances-h1 {font-size: 40px;}
+}

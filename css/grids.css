@@ -1,0 +1,86 @@
+/* Global Grids */
+.g-grid-margin {margin: 2vh 4vw;}
+.g-grid-banner
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 20vw;
+}
+.g-grid-banner img 
+{
+    margin: auto;
+    height: 225px;
+    width: 100%;
+    box-shadow: 10px 5px 5px 10px rgb(187, 194, 182);
+}
+.g-grid-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 80px;
+    padding: 0 10vw;
+}
+.g-grid-grid-item {border: 2px solid white;}
+.g-grid-grid-item-img 
+{
+    position: relative;
+    box-sizing: border-box;
+    height: 300px;
+}
+.g-grid-grid-item-img img {width: 100%; height: 100%; padding: 1rem;}
+.g-grid-grid-item-flex 
+{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: rgb(192, 192, 192);
+}
+.g-grid-grid-item-flex-caption {padding: 0.5vw;}
+.g-grid-grid-item-flex-caption p {font-weight: 600; font-size: 1vw;}
+.g-grid-grid-item-flex-caption .p2 {font-weight: 500;}
+.g-grid-grid-item-flex-button
+{
+    cursor: pointer;
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 10px 0;
+    background-color: rgb(2, 0, 100);
+    color: white;
+}
+.g-grid-grid-item-flex-button:hover,
+.g-grid-grid-item-flex-button:focus {background-color: rgb(2, 0, 134);}
+
+/* Media Queries */
+@media only screen and (max-width: 1500px) 
+{
+    .g-grid-margin {margin: 2vh 0vw;}
+    .g-grid-grid-item-img {height: 300px;}
+    .g-grid-grid-item-flex-caption p {font-weight: 600; font-size: 1.5vw;}
+    .g-grid-grid-item-flex-button {font-size: 1.5vw;}
+}
+@media only screen and (max-width: 1200px)
+{
+    .g-grid-banner img {height: 175px;}
+    .g-grid-grid-item-img {height: 250px;}
+}
+@media only screen and (max-width: 1000px)
+{
+    .g-grid-banner {margin: 2vh 10vw;}
+    .g-grid-grid-item-flex-caption p {font-weight: 600; font-size: 2vw;}
+    .g-grid-grid-item-flex-button {font-size: 2vw;}
+    .g-grid-grid {gap: 40px;}
+}
+@media only screen and (max-width: 800px)
+{
+    .g-grid-grid-item-flex-caption p {font-weight: 600; font-size: 3vw;}
+    .g-grid-grid-item-flex-button {font-size: 3vw;}
+    .g-grid-grid {grid-template-columns: repeat(2, 1fr);}
+}
+@media only screen and (max-width: 600px) {.g-grid-grid-item-img {height: 200px;}}
+@media only screen and (max-width: 450px)
+{
+    .g-grid-grid-item-flex-caption p {font-weight: 600; font-size: 4vw;}
+    .g-grid-grid-item-flex-button {font-size: 4vw;}
+    .g-grid-grid {grid-template-columns: repeat(1, 1fr);}
+    .g-grid-grid-item-img {height: 300px;}
+}

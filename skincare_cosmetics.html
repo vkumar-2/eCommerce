@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible", content="IE-edge">
+        <title>Cosmetics | e-Commerce</title>
+        <link rel="stylesheet", href="css/fonts.css">
+        <link rel="stylesheet", href="css/reset.css">
+        <link rel="stylesheet", href="css/body.css">
+        <link rel="stylesheet", href="css/sidebar.css">
+        <link rel="stylesheet", href="css/queries.css">
+        <link rel="stylesheet", href="css/skincare.css">
+        <link rel="stylesheet", href="css/classes.css">
+        <link rel="stylesheet", href="css/class_queries.css">
+        <link rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <!--Navigation-->
+        <header>
+            <section id="primary-nav">
+                <div class="left-buttons"> <!--left side buttons-->
+                    <div><a href="home.html"><i class="fa-solid fa-house"></i></a></div>
+                </div>
+                <div class="search-bar"> <!--search bar-->
+                    <form>
+                        <input type="text", placeholder="Search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="right-buttons"> <!--right side buttons-->
+                    <div><a href="favourites.html"><i class="fa-solid fa-heart"></i></a></div>
+                    <div><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                </div>
+            </section>
+            <section id="secondary-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#", onClick="openSidebar()", id="sidebar-button"><i class="fa-solid fa-bars menu-button"></i></a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                        <li><a href="groceries.html">Groceries</a></li>
+                        <li><a href="skincare.html">Skincare</a></li>
+                        <li><a href="electronics.html">Electronics</a></li>
+                        <li><a href="furniture.html">Furniture</a></li>
+                        <li><a href="travel.html">Travel</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <!--Sidebar-->
+        <section id="sidebar">
+            <a href="javascript:void(0)", class="closebtn" onclick="closeSidebar()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="deals.html">Deals</a>
+            <a href="groceries.html">Groceries</a>
+            <a href="skincare.html">Skincare</a>
+            <a href="electronics.html">Electronics</a>
+            <a href="furniture.html">Furniture</a>
+            <a href="travel.html">Travel</a>
+        </section>
+        <!--Main section-->
+        <main>
+            <section class="skincare-banner">
+                <h1 class="f-cabin-sketch margin-bottom align-center extralarge">Cosmetics</h1>
+                <img src="images/stocks/skincare/makeup_banner_2.jpg", title="Cosmetics", alt="Banner representing cosmetics.">
+            </section>
+            <section class="skincare-margin padding-bottom padding-top skincare-grid", id="main-section">
+                <div class="skincare-grid-item">
+                    <div class="skincare-grid-item-img"> <!--image-->
+                        <img src="images/stocks/skincare/lip_balm.jpg", title="Lip balm", alt="Image of lip balm.">
+                    </div>
+                    <div class="skincare-grid-item-flex"> <!--flexbox-->
+                        <div class="skincare-grid-item-flex-caption">
+                            <p>Lip Balm</p>
+                            <p class="p2">£5.20</p>
+                        </div>
+                        <div class="skincare-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="skincare-grid-item">
+                    <div class="skincare-grid-item-img"> <!--image-->
+                        <img src="images/stocks/skincare/eye_pencil.jpg", title="Eye pencil", alt="Image of eye pencils.">
+                    </div>
+                    <div class="skincare-grid-item-flex"> <!--flexbox-->
+                        <div class="skincare-grid-item-flex-caption">
+                            <p>Eye Pencil</p>
+                            <p class="p2">£4.50</p>
+                        </div>
+                        <div class="skincare-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="skincare-grid-item">
+                    <div class="skincare-grid-item-img"> <!--image-->
+                        <img src="images/stocks/skincare/nail_polish.jpg", title="Nail polish", alt="Image of nail polish.">
+                    </div>
+                    <div class="skincare-grid-item-flex"> <!--flexbox-->
+                        <div class="skincare-grid-item-flex-caption">
+                            <p>Nail Polish</p>
+                            <p class="p2">£8.00</p>
+                        </div>
+                        <div class="skincare-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="skincare-grid-item">
+                    <div class="skincare-grid-item-img"> <!--image-->
+                        <img src="images/stocks/skincare/eye_powder.jpg", title="Eye powder", alt="Image of eye powder.">
+                    </div>
+                    <div class="skincare-grid-item-flex"> <!--flexbox-->
+                        <div class="skincare-grid-item-flex-caption">
+                            <p>Eye Powder</p>
+                            <p class="p2">£20.00</p>
+                        </div>
+                        <div class="skincare-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="skincare-grid-item">
+                    <div class="skincare-grid-item-img"> <!--image-->
+                        <img src="images/stocks/skincare/felt_tip_eyeliner.jpg", title="Felt-tip eyeliner", alt="Image of felt-tip eyeliners.">
+                    </div>
+                    <div class="skincare-grid-item-flex"> <!--flexbox-->
+                        <div class="skincare-grid-item-flex-caption">
+                            <p>Felt-tip Eyeliner</p>
+                            <p class="p2">£10.75</p>
+                        </div>
+                        <div class="skincare-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+                <div class="skincare-grid-item">
+                    <div class="skincare-grid-item-img"> <!--image-->
+                        <img src="images/stocks/skincare/concealer.jpg", title="Concealer", alt="Image of concealer.">
+                    </div>
+                    <div class="skincare-grid-item-flex"> <!--flexbox-->
+                        <div class="skincare-grid-item-flex-caption">
+                            <p>Concealer</p>
+                            <p class="p2">£15.50</p>
+                        </div>
+                        <div class="skincare-grid-item-flex-button">Add to Basket <i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footer-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tos.html">TOS</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="social-media">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div id="copyright">
+                <p>Copyright &copy; 2022 - 2025. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="js/sidebar.js"></script>
+    </body>
+</html>
