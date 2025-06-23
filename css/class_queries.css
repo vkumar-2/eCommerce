@@ -27,7 +27,7 @@
 @media only screen and (max-width: 600px) 
 {
     .skincare-grid-item-img {height: 200px;} 
-    #skincare-h1, #fragrances-h1 {font-size: 50px;}
+    #skincare-h1, #fragrances-h1, #electronics-h1, #travel-h1 {font-size: 50px;}
 }
 @media only screen and (max-width: 450px)
 {
@@ -35,5 +35,5 @@
     .skincare-grid-item-flex-button {font-size: 4vw;}
     .skincare-grid {grid-template-columns: repeat(1, 1fr);}
     .skincare-grid-item-img {height: 300px;}
-    #skincare-h1, #fragrances-h1 {font-size: 40px;}
+    #skincare-h1, #fragrances-h1, #electronics-h1, #travel-h1 {font-size: 40px;}
 }

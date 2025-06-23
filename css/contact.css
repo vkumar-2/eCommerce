@@ -1,0 +1,39 @@
+main 
+{
+    background-color: rgb(185, 185, 185);
+    box-shadow: 20px 20px 10px rgb(104, 104, 104);
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 50%;
+}
+hr {border: none; border-top: 4px solid rgb(16, 70, 0); margin: 10px 0;}
+main section p {padding-bottom: 10px;}
+label {font-size: 20px;}
+input {width: 100%; font-size: 20px; font-family: Arial; padding: 5px;}
+textarea {width: 100%; font-size: 20px; font-family: Arial;}
+form div {margin-bottom: 2rem;}
+
+/* classes */
+.bold {font-weight: 600; padding-bottom: 2rem;}
+.italic {font-style: italic;}
+
+/* indivial ids */
+#form-div5 {text-align: center;}
+#submit_button
+{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(56, 0, 56);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+#submit_button:hover, 
+#submit_button:focus {background-color: rgb(92, 0, 92);}
+
+/* media queries */
+@media only screen and (max-width: 1200px) {main {width: 60%;}}
+@media only screen and (max-width: 1000px) {main {width: 70%;}}
+@media only screen and (max-width: 900px) {main {width: 80%;}}
+@media only screen and (max-width: 800px) {main {width: 90%;}}
+@media only screen and (max-width: 400px) {p, label, input, textarea, #submit_button {font-size: 15px;}}
