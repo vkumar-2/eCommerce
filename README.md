@@ -42,7 +42,7 @@ Used for adding an interactive sidebar when site is ran on different viewport si
 #### Travel:
 ![](./images/screenshots/travel.png)
 
-### iPad Display:
+### Tablet Display:
 | Fragrances | Skincare |
 | ------------ | ------------ |
 | ![](./images/screenshots/fragrances_ipad.png)  | ![](https://github.com/vkumar-2/eCommerce/blob/main/images/screenshots/skincare_ipad.png) |
