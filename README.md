@@ -1,16 +1,55 @@
-<h1>eCommerce</h1>
-This is a multi-page static e-commerce site built with <b>HTML5</b>, <b>CSS3</b> and a touch of <b>JavaScript</b>. The eCommerce project focused on practicing layout, navigation and responsive UI designs.
+# eCommerce
+This is a multi-page static e-commerce site built with **HTML5**, **CSS3** and a touch of **JavaScript**. The eCommerce project focused on practicing layout, navigation and responsive UI designs.
 
-<h2>Quick Setup</h2>
+## Quick Setup
 Because this is a static site, you can run it locally in seconds.
 
-<b>1. Clone the Repository:</b><br>
-Download this project <a href="https://github.com/vkumar-2/eCommerce/archive/refs/heads/main.zip">here</a> or enter the following in command line:
+**1. Clone the Repository:**
+Download this project [here](https://github.com/vkumar-2/eCommerce/archive/refs/heads/main.zip "here") **or** enter the following in command line:
 
 ```bash
 git clone https://github.com/vkumar-2/eCommerce.git
 cd eCommerce
 ```
 
-<b>2. Open project folder:</b><br>
-Locate where the repository was saved in your file directory and begin by opening <b>home.html</b>.
+**2. Open folder:**
+Open the eCommerce zip folder, locate file **home.html** and double click it to run.
+
+## Tech Stack
+#### HTML5:
+- **Elements** - semantic tags (e.g. header, nav, main, section) used for improving SEO and readability.
+- **Anchors** - standard anchor links (`<a> </a>`) for navigating between pages, simulating a multi-page real eCommerce flow.
+- **Forms** - forms and input elements (e.g. during checkout and contact) where users enter and submit information.
+- **Lists** - mixture of ordered and unordered lists for grouping navigation items, categories and structureed content.
+- **Images** - stock images (from [iStock](https://www.istockphoto.com/ "iStock")) embedded with `<img>` to improve UX and overall presentation.
+
+#### CSS3:
+- **Classes** - used throughout the site for maintaining consistent designs across pages.
+- **Flexbox & Grids** - modern layouts used to align content and organise products in a clear and scalable way.
+- **Media Queries** - used for maintaining responsive web pages across different viewports and screen sizes.
+
+#### JavaScript:
+Used for adding an interactive sidebar when site is ran on different viewport sizes (e.g. smartphones and tablets).
+
+## Pages
+**eCommerce/**
+├─ css/
+├─ js/
+├─ images/
+├─ home.html
+├─ about.html
+├─ checkout.html
+├─ contact.html
+├─ deals.html
+├─ electronics.html
+├─ favourites.html
+├─ furniture.html
+├─ groceries.html
+├─ skincare.html
+├─ skincare_cosmetics.html
+├─ skincare_fragrances.html
+├─ skincare_skincare.html
+├─ template.html
+├─ template_grid.html
+├─ tos.html
+└─ travel.html
