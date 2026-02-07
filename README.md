@@ -32,9 +32,14 @@ Open the eCommerce zip folder, locate file **home.html** and double click it to 
 Used for adding an interactive sidebar when site is ran on different viewport sizes (e.g. smartphones and tablets).
 
 ## Images
-### Home Page
+### Viewport - Desktop:
+#### Homepage:
 ![Home page](./images/screenshots/home.png)
 
-### Category Page
+#### Categories:
 ![Category page](./images/screenshots/categories.png)
 
+### iPad
+| Fragrances | Skincare |
+| ------------ | ------------ |
+| ![](./images/screenshots/fragrances_ipad.png)  | ![](https://github.com/vkumar-2/eCommerce/blob/main/images/screenshots/skincare_ipad.png) |
