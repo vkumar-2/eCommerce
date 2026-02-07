@@ -31,25 +31,10 @@ Open the eCommerce zip folder, locate file **home.html** and double click it to 
 #### JavaScript:
 Used for adding an interactive sidebar when site is ran on different viewport sizes (e.g. smartphones and tablets).
 
-## Pages
-**eCommerce/**
-├─ css/
-├─ js/
-├─ images/
-├─ home.html
-├─ about.html
-├─ checkout.html
-├─ contact.html
-├─ deals.html
-├─ electronics.html
-├─ favourites.html
-├─ furniture.html
-├─ groceries.html
-├─ skincare.html
-├─ skincare_cosmetics.html
-├─ skincare_fragrances.html
-├─ skincare_skincare.html
-├─ template.html
-├─ template_grid.html
-├─ tos.html
-└─ travel.html
+## Images
+### Home Page
+![Home page](./images/screenshots/home.png)
+
+### Category Page
+![Category page](./images/screenshots/categories.png)
+
