@@ -4,15 +4,11 @@ This is a multi-page static e-commerce site built with <b>HTML5</b>, <b>CSS3</b>
 <h2>Quick Setup</h2>
 Because this is a static site, you can run it locally in seconds.
 
-<ol>
-  <li>
-    Clone the Repository:
-    
-    ```bash
-    git clone https://github.com/vkumar-2/eCommerce.git
-    cd eCommerce
-    ```
-  </li>
-</ol>
+<font color="red">Clone the Repository:</font>
+Download this project <a href="https://github.com/vkumar-2/eCommerce/archive/refs/heads/main.zip">here</a> or enter the following in command line:
 
+```bash
+git clone https://github.com/vkumar-2/eCommerce.git
+cd eCommerce
+```
 
