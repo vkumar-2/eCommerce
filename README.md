@@ -4,7 +4,7 @@ This is a multi-page static e-commerce site built with **HTML5**, **CSS3** and a
 ## Quick Setup
 Because this is a static site, you can run it locally in seconds.
 
-**1. Clone the Repository:**
+**1. Clone the Repository:**<br>
 Download this project [here](https://github.com/vkumar-2/eCommerce/archive/refs/heads/main.zip "here") **or** enter the following in command line:
 
 ```bash
@@ -12,7 +12,7 @@ git clone https://github.com/vkumar-2/eCommerce.git
 cd eCommerce
 ```
 
-**2. Open folder:**
+**2. Open folder:**<br>
 Open the eCommerce zip folder, locate file **home.html** and double click it to run.
 
 ## Tech Stack
